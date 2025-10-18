@@ -8,7 +8,9 @@ import { HeaderComponent } from './components/header/header.component';
   imports: [RouterOutlet, HomeComponent, HeaderComponent],
   template: `
     <app-header></app-header>
-    <app-home></app-home>
+    <main>
+      <app-home></app-home>
+    </main>
     <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.css'],
